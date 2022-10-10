@@ -33,4 +33,4 @@ Com a biblioteca já instalada, devemos ainda saber quais são os pinos que o Sh
 
 [Using 1602 LCD Keypad Shield w/ Arduino w/ Examples](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95).
 
-[TECLADO ANALÓGICO COM LCD KEYPAD SHIELD | Curso de Arduino #076]((https://www.youtube.com/watch?v=onDpyWKSJuI&list=WL&index=2&t=13s&ab_channel=WRKits).
+[TECLADO ANALÓGICO COM LCD KEYPAD SHIELD | Curso de Arduino #076](https://www.youtube.com/watch?v=onDpyWKSJuI&list=WL&index=2&t=13s&ab_channel=WRKits).
