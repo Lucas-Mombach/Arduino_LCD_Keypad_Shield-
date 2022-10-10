@@ -25,6 +25,33 @@ Com a biblioteca já instalada, devemos ainda saber quais são os pinos que o Sh
 
 ## Hello World
 
+Agora para utilizar-mos a função mais primordial do Display LCD copie o codigo a seguir, leia com atenção, algumas alterações devem ser feitas.
+
+```
+// inclue a Biblioteca LiquidCrystal
+#include <LiquidCrystal.h>
+
+// inicaliza associando um lcd aos pinos
+// Esses são os pinos que o Shield está ligado no arduino
+const int rs = 12 , en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2; // lembre-se do que aprendemos na seção sobre os pinos
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // O comando abaixo imprime no Display LCD a mensagem desejada
+  lcd.print("Ola Mundo");
+}
+
+void loop() {
+  // define o cursos para a coluna 0 e linha 1
+  // Lembre-se que as linhas são contadas a partir do 0, logo vai a mensagem vai aparecer na segunda linha
+  lcd.setCursor(0, 1);
+  // imprime na tela o tempo decorrido desde a execução:
+  lcd.print(millis() / 1000);
+}
+```
+
 ## Botões
 
 ## Exemplo
