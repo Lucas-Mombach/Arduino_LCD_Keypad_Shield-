@@ -38,7 +38,7 @@ const int rs = 12 , en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2; // lembre-se do que
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
-  // set up the LCD's number of columns and rows:
+  // define a quantidade de colunas e linhas do LCD
   lcd.begin(16, 2);
   // O comando abaixo imprime no Display LCD a mensagem desejada
   lcd.print("Ola Mundo");
@@ -48,14 +48,14 @@ void loop() {
   // define o cursos para a coluna 0 e linha 1
   // Lembre-se que as linhas são contadas a partir do 0, logo vai a mensagem vai aparecer na segunda linha
   lcd.setCursor(0, 1);
-  // imprime na tela o tempo decorrido desde a execução:
-  lcd.print(millis() / 1000);
+  // imprime na tela a Ola Mundo em Inglês
+  lcd.print(Hello World);
 }
 ```
 
 ## Botões
 
-Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir, ele foi retirado do post [Using 1602 LCD Keypad Shield w/ Arduino w/ Examples](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95).:
+Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir.Ele foi retirado[desse post](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95), fiz algumas alterações para melhor compreensão :
 
 #### Exemplo
 ```
@@ -82,7 +82,7 @@ LiquidCrystal lcd( pin_RS,  pin_EN,  pin_d4,  pin_d5,  pin_d6,  pin_d7);
 
 void setup() {
   
-  lcd.begin(16, 2);
+  lcd.begin(16, 2); // declara as dimensões do display
 
   lcd.setCursor(0,0);
 
