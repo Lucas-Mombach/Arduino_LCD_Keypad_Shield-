@@ -55,7 +55,7 @@ void loop() {
 
 ## Botões
 
-Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir.Ele foi retirado [desse post](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95), fiz algumas alterações para melhor compreensão :
+Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir. Ele foi retirado [desse post](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95), fiz algumas alterações para melhor compreensão :
 
 #### Exemplo
 ```
@@ -94,8 +94,9 @@ void setup() {
 void loop() {
   int x;
   x = analogRead (0);
-  lcd.setCursor(10,1);
-  if (x < 60) {
+  lcd.setCursor(10,1); //Coluna 10,linha 1(começando do 0)
+  // os intervalos a seguir são onde geralmente se encontram a tensão lida no analogRead(A0) após precionar cada botão 
+  if (x < 60) { // 
     lcd.print ("Right ");
   }
   else if (x < 200) {
@@ -113,6 +114,10 @@ void loop() {
 }
 
 ```
+
+Pode ocorrer problemas com os valores especificos devido a variação de marcas do Shield, por isso, se o codigo acima não funcionar altere os valores.
+
+
 
 ## Referencias
 
