@@ -2,7 +2,14 @@
 
 ## Introdução
 
+O LCD Keypad Shield nos permite desenvolver uma série de projetos que precisem de input e output visual, como relogios, menus e jogos simples. 
+Nesse tutorial você aprenderá: 
+
+* Como imprimir texto no Display LCD
+* Como usar o Keypad do Shield
+
 ## LiquidCrystal
+
 Vamos utilizar a Biblioteca LiquidCrystal para mostar o que quisermos no Display LCD. Mas primeiro precisamos instala-la, já com o Arduino IDE aberto:
 
 ![](/includeLib.png)
