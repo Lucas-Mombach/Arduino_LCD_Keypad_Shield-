@@ -55,7 +55,7 @@ void loop() {
 
 ## Botões
 
-Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir.Ele foi retirado[desse post](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95), fiz algumas alterações para melhor compreensão :
+Todos os botões são conectados em um único pino analogico e atraves de um resistor, cada botão é diferenciado pela tensão lida no analogRead(A0). Para entender melhor analise o exemplo a seguir.Ele foi retirado [desse post](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95), fiz algumas alterações para melhor compreensão :
 
 #### Exemplo
 ```
