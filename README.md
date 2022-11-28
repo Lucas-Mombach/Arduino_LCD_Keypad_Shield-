@@ -5,8 +5,12 @@
 O LCD Keypad Shield nos permite desenvolver uma série de projetos que precisem de input e output visual, como relogios, menus e jogos simples. 
 Nesse tutorial você aprenderá: 
 
+* Um pouco mais sobre o LCD Keypad Shield
 * Como imprimir texto no Display LCD
 * Como usar o Keypad do Shield
+
+##Informações Tecnicas
+
 
 ## LiquidCrystal
 
