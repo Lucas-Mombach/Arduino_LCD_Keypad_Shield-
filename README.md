@@ -9,7 +9,13 @@ Nesse tutorial você aprenderá:
 * Como imprimir texto no Display LCD
 * Como usar o Keypad do Shield
 
-##Informações Tecnicas
+## Informações Tecnicas
+
+ * Dimensões do LCD:
+ * Capacidade do Display
+ * Voltagem : 4.5-5.5V
+
+
 
 
 ## LiquidCrystal
