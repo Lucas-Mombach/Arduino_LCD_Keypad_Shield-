@@ -11,9 +11,15 @@ Nesse tutorial você aprenderá:
 
 ## Informações Tecnicas
 
- * Dimensões do LCD:
- * Capacidade do Display
- * Voltagem : 4.5-5.5V
+* Tamanho do LCD : 20.5mm X 41mm
+* Capacidade do Display : 16X2 character
+* Potenciômetro para ajustar luz de fundo
+* Potência Eletrica: 4.5-5.5V
+* Corrente : 2.0 mA (5.0V)
+* Voltagem Ideal: 5.0V
+* Dimensões: 80mm de Comprimento X 58mm de Altura X 2mm de Profundidade
+* Peso: 51.5g
+
 
 
 
