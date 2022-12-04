@@ -149,3 +149,4 @@ Pode ocorrer problemas com os valores especificos devido a variação de marcas 
 [TECLADO ANALÓGICO COM LCD KEYPAD SHIELD | Curso de Arduino #076](https://www.youtube.com/watch?v=onDpyWKSJuI&list=WL&index=2&t=13s&ab_channel=WRKits).
 
 [Como utilizar o Display LCD Shield com Teclado para Arduino](https://www.filipeflop.com/blog/como-utilizar-o-display-lcd-shield-com-teclado-para-arduino/).
+[Ks0256 keyestudio LCD1602 Expansion Shield](https://wiki.keyestudio.com/Ks0256_keyestudio_LCD1602_Expansion_Shield).
