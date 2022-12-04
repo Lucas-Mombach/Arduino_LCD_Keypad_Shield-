@@ -20,9 +20,9 @@ Nesse tutorial você aprenderá:
 * Dimensões: 80mm de Comprimento X 58mm de Altura X 2mm de Profundidade
 * Peso: 51.5g
 
+## Esquematica
 
-
-
+![](/LCD Keypad Shield Schematic.png)
 
 ## LiquidCrystal
 
@@ -151,3 +151,5 @@ Pode ocorrer problemas com os valores especificos devido a variação de marcas 
 [Como utilizar o Display LCD Shield com Teclado para Arduino](https://www.filipeflop.com/blog/como-utilizar-o-display-lcd-shield-com-teclado-para-arduino/).
 
 [Ks0256 keyestudio LCD1602 Expansion Shield](https://wiki.keyestudio.com/Ks0256_keyestudio_LCD1602_Expansion_Shield).
+
+[LCD Keypad Shield for Arduino](https://5.imimg.com/data5/LE/MO/MY-1833510/lcd.pdf)
