@@ -2,31 +2,31 @@
 
 ## Introdução
 
-O LCD Keypad Shield nos permite desenvolver uma série de projetos que precisem de input e output visual, como relogios, menus e jogos simples. 
-Nesse tutorial você aprenderá: 
+O LCD Keypad Shield nos permite desenvolver uma série de projetos que precisem de input e output visual, como relógios, menus e jogos simples.
+Nesse tutorial você aprenderá:
 
 * Um pouco mais sobre o LCD Keypad Shield
 * Como imprimir texto no Display LCD
 * Como usar o Keypad do Shield
 
-## Informações Tecnicas
+## Informações Técnicas
 
-* Tamanho do LCD : 20.5mm X 41mm
-* Capacidade do Display : 16X2 character
+* Tamanho do LCD : 20.5mm X 41 mm
+* Capacidade do Display : 16X2 caracteres
 * Potenciômetro para ajustar luz de fundo
-* Potência Eletrica: 4.5-5.5V
+* Potência Elétrica: 4.5-5.5V
 * Corrente : 2.0 mA (5.0V)
 * Voltagem Ideal: 5.0V
-* Dimensões: 80mm de Comprimento X 58mm de Altura X 2mm de Profundidade
+* Dimensões: 80 mm de Comprimento X 58 mm de Altura X 2 mm de Profundidade
 * Peso: 51.5g
 
-## Esquematica
+## Esquemática
 
 ![](/Shield-Schematics.png)
 
 ## Biblioteca LiquidCrystal
 
-Vamos utilizar a Biblioteca LiquidCrystal para mostar o que quisermos no Display LCD. Mas primeiro precisamos instala-la, já com o Arduino IDE aberto:
+Vamos utilizar a Biblioteca LiquidCrystal para mostrar o que quisermos no Display LCD. Mas primeiro precisamos instalá-la, já com o Arduino IDE aberto:
 
 ![](/includeLib.png)
 
@@ -34,7 +34,7 @@ Agora busque por LiquidCrystal e aperte em instalar:
 
 ![](/includeLib2.png)
 
-Depois de instalar a biblioteca devemos inclui-la no nosso codigo:
+Depois de instalar a biblioteca devemos incluí-la no nosso código:
 
 ![](/includeLib3.png)
 
@@ -45,17 +45,17 @@ Com a biblioteca já instalada, devemos ainda saber quais são os pinos que o Sh
 
 ![](https://hackster.imgix.net/uploads/attachments/869014/untitled_mu5aKDOZ1V.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 
-Preste especial atenção a ultima linha da tabela, todos os botões estão conectados no mesmo pino, para mais detalhes vá ao tópico Botões.
+Preste especial atenção a última linha da tabela, todos os botões estão conectados no mesmo pino, para mais detalhes vá ao tópico Botões.
 
 ## Hello World
 
-Agora para utilizar-mos a função mais primordial do Display LCD copie o codigo a seguir, leia com atenção, algumas alterações devem ser feitas.
+Agora para utilizarmos a função mais primordial do Display LCD copie o código a seguir, leia com atenção, algumas alterações devem ser feitas.
 
 ```
-// inclue a Biblioteca LiquidCrystal
+// inclui a Biblioteca LiquidCrystal
 #include <LiquidCrystal.h>
 
-// inicaliza associando um lcd aos pinos
+// inicializa associando um lcd aos pinos
 // Esses são os pinos que o Shield está ligado no arduino
 const int rs = 12 , en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2; // lembre-se do que aprendemos na seção sobre os pinos
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
@@ -92,19 +92,19 @@ https://electropeak.com/learn/
 #include <LiquidCrystal.h>
 
 //LCD pin to Arduino
-const int pin_RS = 8; 
-const int pin_EN = 9; 
-const int pin_d4 = 4; 
-const int pin_d5 = 5; 
-const int pin_d6 = 6; 
-const int pin_d7 = 7; 
+const int pin_RS = 8;
+const int pin_EN = 9;
+const int pin_d4 = 4;
+const int pin_d5 = 5;
+const int pin_d6 = 6;
+const int pin_d7 = 7;
 
-const int pin_BL = 10; 
+const int pin_BL = 10;
 
 LiquidCrystal lcd( pin_RS,  pin_EN,  pin_d4,  pin_d5,  pin_d6,  pin_d7);
 
 void setup() {
-  
+ 
   lcd.begin(16, 2); // declara as dimensões do display
 
   lcd.setCursor(0,0);
@@ -118,8 +118,8 @@ void loop() {
   int x;
   x = analogRead (0);
   lcd.setCursor(10,1); //Coluna 10,linha 1(começando do 0)
-  // os intervalos a seguir são onde geralmente se encontram a tensão lida no analogRead(A0) após precionar cada botão 
-  if (x < 60) { // 
+  // os intervalos a seguir são onde geralmente se encontram a tensão lida no analogRead(A0) após pressionar cada botão
+  if (x < 60) { //
     lcd.print ("Right ");
   }
   else if (x < 200) {
@@ -138,10 +138,11 @@ void loop() {
 
 ```
 
-Pode ocorrer problemas com os valores especificos devido a variação de marcas do Shield, por isso, se o codigo acima não funcionar altere os valores.
+Pode ocorrer problemas com os valores específicos devido a variação de marcas do Shield, por isso, se o codigo acima não funcionar altere os valores.
 
 
-## Referencias
+
+## Referências
 
 [Using 1602 LCD Keypad Shield w/ Arduino w/ Examples](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95).
 
@@ -152,3 +153,5 @@ Pode ocorrer problemas com os valores especificos devido a variação de marcas 
 [Ks0256 keyestudio LCD1602 Expansion Shield](https://wiki.keyestudio.com/Ks0256_keyestudio_LCD1602_Expansion_Shield).
 
 [LCD Keypad Shield for Arduino](https://5.imimg.com/data5/LE/MO/MY-1833510/lcd.pdf)
+
+
