@@ -141,7 +141,6 @@ void loop() {
 Pode ocorrer problemas com os valores especificos devido a variação de marcas do Shield, por isso, se o codigo acima não funcionar altere os valores.
 
 
-
 ## Referencias
 
 [Using 1602 LCD Keypad Shield w/ Arduino w/ Examples](https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95).
