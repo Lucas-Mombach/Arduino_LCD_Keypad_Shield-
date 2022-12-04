@@ -22,7 +22,7 @@ Nesse tutorial você aprenderá:
 
 ## Esquematica
 
-![](/LCD Keypad Shield Schematic.png)
+![](/Shield-Schematics.png)
 
 ## LiquidCrystal
 
